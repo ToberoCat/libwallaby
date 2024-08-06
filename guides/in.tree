@@ -3,8 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Botball"
-                 start-page="getting-started.md">
+                 name="Instance Name"
+                 start-page="starter.md">
 
-    <toc-element topic="getting-started.md"/>
+    <toc-element topic="starter.md"/>
 </instance-profile>
