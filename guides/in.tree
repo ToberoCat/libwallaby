@@ -2,8 +2,8 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="guides"
-                 name="Botball Guides"
+<instance-profile id="starter"
+                 name="Botball Starter"
                  start-page="starter.md">
 
     <toc-element topic="starter.md"/>
