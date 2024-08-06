@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="renamed module" />
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Fixed deployment">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +57,33 @@
             </ColorState>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/guides/s.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="2" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="225" />
+                  <option name="darkBlue" value="225" />
+                  <option name="darkGreen" value="149" />
+                  <option name="darkRed" value="56" />
+                  <option name="green" value="149" />
+                  <option name="red" value="56" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="234" />
+                  <option name="darkBlue" value="234" />
+                  <option name="darkGreen" value="197" />
+                  <option name="darkRed" value="81" />
+                  <option name="green" value="197" />
+                  <option name="red" value="81" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -62,22 +91,23 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2kImylVD61KUe11IU9rqQPOlbjF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;writerside.last.selected.productlibwallaby&quot;: &quot;s&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
-      &quot;/home/tobias/Downloads/libwallaby/guides/topics/distance-sensor.md&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Writerside.PDF (s).executor": "Run",
+    "Writerside.Web Archive (s).executor": "Run",
+    "git-widget-placeholder": "master",
+    "writerside.last.selected.productlibwallaby": "s"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Writerside.Web Archive (s)">
     <configuration name="PDF (s)" type="StardustRunConfiguration" factoryName="build-pdf">
       <option name="copyright" />
@@ -101,8 +131,11 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="reworked module" />
     <MESSAGE value="renamed module" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed module" />
+    <MESSAGE value="added guides module" />
+    <MESSAGE value="Fixed deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed deployment" />
   </component>
 </project>
