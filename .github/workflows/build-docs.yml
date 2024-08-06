@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: 'guides/starter'
+  INSTANCE: 'botball-guides/s'
   ARTIFACT: 'webHelpHI2-all.zip'
   DOCKER_VERSION: '241.18775'
 
@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build docs using Writerside Docker builder
+      - name: Build docs using botball-guides Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: ${{ env.INSTANCE }}
