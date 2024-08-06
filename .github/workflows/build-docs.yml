@@ -49,6 +49,10 @@ jobs:
           name: docs
           path: docs
 
+      - name: Extract artifact
+        run: |
+          unzip docs/${{ env.ARTIFACT }} -d docs
+
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.name 'github-actions[bot]'
