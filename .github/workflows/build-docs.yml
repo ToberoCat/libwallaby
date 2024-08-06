@@ -7,7 +7,7 @@ on:
 
 env:
   INSTANCE: 'guides/s'
-  ARTIFACT: 'webHelpHI2-all.zip'
+  ARTIFACT: 'webHelpS2-all.zip'
   DOCKER_VERSION: '241.18775'
 
 jobs:
