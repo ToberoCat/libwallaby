@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Fixed deployment">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yml" afterDir="false" />
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="fixed index name">
+      <change afterPath="$PROJECT_DIR$/guides/images/GP2Y0A21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/images/distance-sensor-placement-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/images/distance-sensor-volt-to-cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/labels.list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/resources/distance-sensor-datasheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/snippet-lib.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/topics/distance-sensor.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/distance-sensor.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +91,33 @@
             </ColorState>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../throwaway/Writerside/in.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="3" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="147" />
+                  <option name="darkBlue" value="147" />
+                  <option name="darkGreen" value="69" />
+                  <option name="darkRed" value="143" />
+                  <option name="green" value="69" />
+                  <option name="red" value="143" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="227" />
+                  <option name="darkBlue" value="227" />
+                  <option name="darkGreen" value="114" />
+                  <option name="darkRed" value="181" />
+                  <option name="green" value="114" />
+                  <option name="red" value="181" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -105,10 +139,20 @@
     "Writerside.PDF (s).executor": "Run",
     "Writerside.Web Archive (s).executor": "Run",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/tobias/Downloads/libwallaby/guides/images",
     "writerside.last.selected.productlibwallaby": "s"
   }
 }]]></component>
-  <component name="RunManager" selected="Writerside.Web Archive (s)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/guides/images" />
+      <recent name="$PROJECT_DIR$/guides/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/guides/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Writerside.PDF (s)">
     <configuration name="PDF (s)" type="StardustRunConfiguration" factoryName="build-pdf">
       <option name="copyright" />
       <option name="description" />
@@ -136,6 +180,25 @@
     <MESSAGE value="renamed module" />
     <MESSAGE value="added guides module" />
     <MESSAGE value="Fixed deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed deployment" />
+    <MESSAGE value="Added deploy step" />
+    <MESSAGE value="Fixed branch" />
+    <MESSAGE value="unzipped file" />
+    <MESSAGE value="fixed workflow" />
+    <MESSAGE value="configured angolia" />
+    <MESSAGE value="configured angolia app id" />
+    <MESSAGE value="fixed index name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed index name" />
   </component>
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "branch": "master",
+      "currentBranchFilter": true
+    }
+  ],
+  "lastFilter": {
+    "branch": "master",
+    "currentBranchFilter": true
+  }
+}]]></component>
 </project>
