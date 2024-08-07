@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="fixed index name">
-      <change afterPath="$PROJECT_DIR$/guides/images/GP2Y0A21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/images/distance-sensor-placement-diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/images/distance-sensor-volt-to-cm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/labels.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/resources/distance-sensor-datasheet.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/snippet-lib.md" afterDir="false" />
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Added distance sensor docs">
+      <change afterPath="$PROJECT_DIR$/guides/topics/getting-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guides/cfg/buildprofiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/labels.list" beforeDir="false" afterPath="$PROJECT_DIR$/guides/labels.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/s.tree" beforeDir="false" afterPath="$PROJECT_DIR$/guides/bbguides.tree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guides/topics/distance-sensor.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/distance-sensor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/writerside.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/guides/writerside.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,60 @@
                   <option name="darkRed" value="231" />
                   <option name="green" value="126" />
                   <option name="red" value="231" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/guides/bbguides.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="6" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="173" />
+                  <option name="darkBlue" value="173" />
+                  <option name="darkGreen" value="84" />
+                  <option name="darkRed" value="120" />
+                  <option name="green" value="84" />
+                  <option name="red" value="120" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="230" />
+                  <option name="darkBlue" value="230" />
+                  <option name="darkGreen" value="122" />
+                  <option name="darkRed" value="137" />
+                  <option name="green" value="122" />
+                  <option name="red" value="137" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/guides/guides.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="5" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="55" />
+                  <option name="darkBlue" value="55" />
+                  <option name="darkGreen" value="114" />
+                  <option name="darkRed" value="226" />
+                  <option name="green" value="114" />
+                  <option name="red" value="226" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="62" />
+                  <option name="darkBlue" value="62" />
+                  <option name="darkGreen" value="168" />
+                  <option name="darkRed" value="232" />
+                  <option name="green" value="168" />
+                  <option name="red" value="232" />
                 </RgbState>
               </option>
             </ColorState>
@@ -118,6 +172,33 @@
             </ColorState>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../untitled/Writerside/adoc.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="4" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="112" />
+                  <option name="darkBlue" value="112" />
+                  <option name="darkGreen" value="83" />
+                  <option name="darkRed" value="215" />
+                  <option name="green" value="83" />
+                  <option name="red" value="215" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="163" />
+                  <option name="darkBlue" value="163" />
+                  <option name="darkGreen" value="111" />
+                  <option name="darkRed" value="233" />
+                  <option name="green" value="111" />
+                  <option name="red" value="233" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -132,17 +213,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Writerside.PDF (s).executor": "Run",
-    "Writerside.Web Archive (s).executor": "Run",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/tobias/Downloads/libwallaby/guides/images",
-    "writerside.last.selected.productlibwallaby": "s"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Writerside.PDF (s).executor&quot;: &quot;Run&quot;,
+    &quot;Writerside.Web Archive (s).executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tobias/Downloads/libwallaby/guides/images&quot;,
+    &quot;writerside.last.selected.productlibwallaby&quot;: &quot;s&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+      &quot;/home/tobias/Downloads/libwallaby/guides/topics/distance-sensor.md&quot;,
+      &quot;/home/tobias/Downloads/libwallaby/guides/topics/getting-started.md&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/guides/images" />
@@ -187,18 +274,19 @@
     <MESSAGE value="configured angolia" />
     <MESSAGE value="configured angolia app id" />
     <MESSAGE value="fixed index name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed index name" />
+    <MESSAGE value="Added distance sensor docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added distance sensor docs" />
   </component>
-  <component name="WfRunsListSearchHistory"><![CDATA[{
-  "history": [
+  <component name="WfRunsListSearchHistory">{
+  &quot;history&quot;: [
     {
-      "branch": "master",
-      "currentBranchFilter": true
+      &quot;branch&quot;: &quot;master&quot;,
+      &quot;currentBranchFilter&quot;: true
     }
   ],
-  "lastFilter": {
-    "branch": "master",
-    "currentBranchFilter": true
+  &quot;lastFilter&quot;: {
+    &quot;branch&quot;: &quot;master&quot;,
+    &quot;currentBranchFilter&quot;: true
   }
-}]]></component>
+}</component>
 </project>

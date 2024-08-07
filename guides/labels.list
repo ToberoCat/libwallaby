@@ -6,6 +6,12 @@
         This is a guide made to explain a part of the kit
     </primary-label>
 
+    <secondary-label id="sensor" name="Sensor" color="red">
+        This is a guide made to explain a sensor
+    </secondary-label>
+
     <!-- Author Labels -->
-    <secondary-label id="tobias-madlberger" name="Tobias Madlberger" color="purple">Author of this Guide</secondary-label>
+    <secondary-label id="tobias-madlberger" name="Tobias Madlberger" color="purple">
+        Author of this Guide
+    </secondary-label>
 </labels>

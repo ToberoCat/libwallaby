@@ -10,14 +10,14 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'guides/s'
-  ARTIFACT: 'webHelpS2-all.zip'
+  INSTANCE: 'guides/bb-guides'
+  ARTIFACT: 'webHelpBBGUIDES2-all.zip'
   DOCKER_VERSION: '241.18775'
-  ALGOLIA_ARTIFACT: 'algolia-indexes-S.zip'
+  ALGOLIA_ARTIFACT: 'algolia-indexes-BBGUIDES.zip'
   ALGOLIA_APP_NAME: '2WPCZW5YKS'
   ALGOLIA_INDEX_NAME: 'Writerside'
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
-  CONFIG_JSON_PRODUCT: 'S'
+  CONFIG_JSON_PRODUCT: 'BBGUIDES'
   CONFIG_JSON_VERSION: '2.0'
 
 jobs:
