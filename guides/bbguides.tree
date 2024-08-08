@@ -5,6 +5,20 @@
 <instance-profile id="bbguides"
                  name="Botball Guides"
                  start-page="getting-started.md">
-    <toc-element topic="getting-started.md"/>
+    <toc-element topic="getting-started.md">
+        <toc-element topic="the-botball-kit.md"/>
+        <toc-element topic="build-a-bot.md">
+        </toc-element>
+        <toc-element topic="using-the-wombat.md"/>
+        <toc-element topic="program-the-robot.md"/>
+        <toc-element topic="sensors-and-actuators.md"/>
+    </toc-element>
+    <toc-element topic="preparing-for-a-regional.md">
+        <toc-element topic="how-a-regional-works.md"/>
+        <toc-element topic="making-a-successful-strategy.md"/>
+        <toc-element topic="teamwork-project-managment.md"/>
+        <toc-element topic="preparing-your-robot.md"/>
+    </toc-element>
+    <toc-element topic="Programming.md"/>
     <toc-element topic="distance-sensor.md"/>
 </instance-profile>

@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Added distance sensor docs">
-      <change afterPath="$PROJECT_DIR$/guides/topics/getting-started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yml" afterDir="false" />
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="fixed action">
+      <change afterPath="$PROJECT_DIR$/guides/topics/Programming.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/Senors.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/build-a-bot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/how-a-regional-works.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/preparing-for-a-regional.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/preparing-your-robot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/program-the-robot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/sensors-and-actuators.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/teamwork-project-managment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/the-botball-kit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/topics/using-the-wombat.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guides/cfg/buildprofiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/labels.list" beforeDir="false" afterPath="$PROJECT_DIR$/guides/labels.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/s.tree" beforeDir="false" afterPath="$PROJECT_DIR$/guides/bbguides.tree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/topics/distance-sensor.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/distance-sensor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/writerside.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/guides/writerside.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/bbguides.tree" beforeDir="false" afterPath="$PROJECT_DIR$/guides/bbguides.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/topics/getting-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/getting-started.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,23 +220,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Writerside.PDF (s).executor&quot;: &quot;Run&quot;,
-    &quot;Writerside.Web Archive (s).executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tobias/Downloads/libwallaby/guides/images&quot;,
-    &quot;writerside.last.selected.productlibwallaby&quot;: &quot;s&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
-      &quot;/home/tobias/Downloads/libwallaby/guides/topics/distance-sensor.md&quot;,
-      &quot;/home/tobias/Downloads/libwallaby/guides/topics/getting-started.md&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Writerside.PDF (s).executor": "Run",
+    "Writerside.Web Archive (s).executor": "Run",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/tobias/Downloads/libwallaby/guides/images",
+    "writerside.last.selected.productlibwallaby": "s"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/guides/images" />
@@ -275,7 +276,9 @@
     <MESSAGE value="configured angolia app id" />
     <MESSAGE value="fixed index name" />
     <MESSAGE value="Added distance sensor docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added distance sensor docs" />
+    <MESSAGE value="Added outline of getting started guide" />
+    <MESSAGE value="fixed action" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed action" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
