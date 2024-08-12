@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Almost done with making-a-successful-strategy.md, one image missing">
-      <change afterPath="$PROJECT_DIR$/guides/images/2024-botball-strategy-refinement.png" afterDir="false" />
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Finished making-a-successful-strategy.md">
+      <change afterPath="$PROJECT_DIR$/guides/images/x-y-approach.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/topics/increasing-robot-accuracy.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/increasing-robot-accuracy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +273,8 @@
     <MESSAGE value="Started working on making-a-successful-strategy.md" />
     <MESSAGE value="Added increasing-robot-accuracy.md page" />
     <MESSAGE value="Almost done with making-a-successful-strategy.md, one image missing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost done with making-a-successful-strategy.md, one image missing" />
+    <MESSAGE value="Finished making-a-successful-strategy.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished making-a-successful-strategy.md" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [

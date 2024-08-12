@@ -14,6 +14,11 @@ This is easier said than done, especially since external reference points like G
 The X-Y approach offers a straightforward method to ensure the robot consistently knows its x and y coordinates when
 needed. This is achieved through various squaring-up techniques.
 
+![X-Y Approach](x-y-approach.png)
+
+This graphic illustrates the X-Y approach, showing how the robot can square up with the table's edges to determine its
+position. This image is from jonathan Harrison's video, mentioned below.
+
 ### Back-EMF
 
 <tldr>
@@ -45,8 +50,6 @@ presented at GCER 2024.
 This method involves aligning the robot by gently driving it against the PVC pipes along the game table's edges. This
 ensures that the robot's x or y position is accurate and can also correct its rotation.
 
-ToDo: Add graphic of the X-Y approach with pvc alignment
-
 ### Line Up
 
 <tldr>
@@ -58,7 +61,10 @@ ToDo: Add graphic of the X-Y approach with pvc alignment
 Similar to the wall alignment method, this approach uses line-follow sensors to align the robot with black lines on the
 table. This method ensures the robot knows its x or y position.
 
-To-Do: Include a graphic showing the X-Y approach using line-follow sensors.
+![Line Up gif](line-up.gif)
+
+> This gif has been extracted from Jonathan Harrison's Video about Botball Analysis, see below and shows how the robot
+> can align itself with the black lines.
 
 For more details, check out this video by Jonathan Harrison on writing a line-up
 method: [Square Ups](https://www.youtube.com/watch?v=jBVklWdPp7g)
