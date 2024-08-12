@@ -5,6 +5,11 @@
     <primary-label id="kit" short-name="K" name="Kit Part">
         This is a guide made to explain a part of the kit
     </primary-label>
+    <primary-label short-name="PE" id="personal-experience" name="Personal Experience">
+        This is a guide not based on any factual information, nor is it based on any scientific research. It is
+        based on the author's personal experience and what worked best for them. Does not guarantee the same results for
+        you.
+    </primary-label>
 
     <secondary-label id="sensor" name="Sensor" color="red">
         This is a guide made to explain a sensor

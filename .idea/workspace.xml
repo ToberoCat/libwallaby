@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="fixed action">
-      <change afterPath="$PROJECT_DIR$/guides/topics/Programming.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/Senors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/build-a-bot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/how-a-regional-works.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/preparing-for-a-regional.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/preparing-your-robot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/program-the-robot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/sensors-and-actuators.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/teamwork-project-managment.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/the-botball-kit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/using-the-wombat.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/images/2024-botball-strategy-brainstorm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guides/resources/2024-botball-game-review-v1.0.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/bbguides.tree" beforeDir="false" afterPath="$PROJECT_DIR$/guides/bbguides.tree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/topics/getting-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/getting-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/labels.list" beforeDir="false" afterPath="$PROJECT_DIR$/guides/labels.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfSourceS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfSourceS.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +219,9 @@
     "Writerside.PDF (s).executor": "Run",
     "Writerside.Web Archive (s).executor": "Run",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "/home/tobias/Downloads/libwallaby/guides/images",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "writerside.last.selected.productlibwallaby": "s"
   }
 }]]></component>
@@ -237,6 +231,8 @@
       <recent name="$PROJECT_DIR$/guides/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tmadlberger\WritersideProjects\libwallaby\guides\images" />
+      <recent name="C:\Users\tmadlberger\WritersideProjects\libwallaby\guides\resources" />
       <recent name="$PROJECT_DIR$/guides/images" />
     </key>
   </component>
