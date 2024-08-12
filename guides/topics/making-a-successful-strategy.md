@@ -3,18 +3,23 @@
 <primary-label ref="personal-experience"/>
 <secondary-label ref="tobias-madlberger"/>
 
-> This guide must not be the best guide to make a successful strategy,
-> but it helped my team make one that got us to the fourth place at the 2024 GCER.
-> It heavily relies on my personal experience and the experience of my team.
+> This guide might not be the definitive guide to creating a successful strategy,
+> but it helped my team reach fourth place at the 2024 GCER.
+> It heavily relies on my personal experience and that of my team.
 > {style="warning"}
 
-> WIP: This guide is still a work in progress. I will add more content in the future.
+## Why is Strategy Important?
 
-## What is a Successful Strategy?
+Strategy is crucial in Botball because it determines how you approach the game and what you aim to achieve. A good
+strategy can help you maximize your score, make the most of your resources, and ensure that your robot performs well
+during the competition. Without a strategy, you risk wasting time and effort on tasks that don’t contribute to your
+overall goal.
+
+## What makes a good strategy?
 
 A good strategy isn’t just about how many points you score at the end of a competition. It’s also about how well you use
-the resources you have, how much time you have to prepare, and the team
-you’re working with, both in terms of experience and size.
+the resources you have, how much time you have to prepare, and the team you’re working with, both in terms of experience
+and size.
 
 For example, if you have a team of six experienced people and three months to prepare, you can aim for a high-scoring
 run. But if your team has only two people who are less experienced, it’s better to aim for a run that’s easier to
@@ -38,17 +43,28 @@ much more enjoyable for us, as we didn’t have to worry about our robot failing
 
 ## Creating the Initial Strategy
 
+### Step 1: Setting Team Goals and Time Commitments
+
 The day before the game review was released, my team and I had a Discord call to discuss our goals for the year and how
 much time each of us could commit to the project. To clarify, we were all students, and Botball wasn’t a school
 subject—we had to work on it over the weekends.
 
+### Step 2: Reviewing the Game and Scoring Rules
+
 With a general idea of what we wanted to achieve, we started looking at the game review as soon as it was released. We
 studied the scoresheet and the game table, trying to identify which areas could score the most points. At this stage, we
 weren’t thinking about what our team could realistically do, but rather about what was possible. We asked ourselves
-questions like, “What can be done?” and “Which items score well together?” without worrying about risks or how the robot
-would accomplish specific tasks. This approach is important because it helps you understand what the game allows and
-what other teams might also be aiming for. We also asked questions to the KIPR staff to clarify the scoring rules. This
-whole process took us about 3-4 hours of discussions and questions.
+questions like:
+
+- “What can be done?”
+- “Which items score well together?”
+
+At this point, we weren’t worrying about risks or how the robot would accomplish specific tasks. This approach is
+important because it helps you understand what the game allows and what other teams might also be aiming for. We also
+asked questions to the KIPR staff to clarify the scoring rules. This whole process took us about 3-4 hours of
+discussions and questions.
+
+### Step 3: Brainstorming Possible Strategies
 
 Once we had a solid understanding of what was possible in the game, we started brainstorming what our robot should be
 able to do. We used a whiteboard session (in our case, the free tool [excalidraw.com](https://excalidraw.com/)) to
@@ -65,46 +81,45 @@ mechanisms, like a pom sorting system and a creative astronaut pickup mechanism.
 although we didn’t end up using all of them. The image also includes some features of the Create3 robot and screenshots
 of our Excel scoring sheet.
 
+### Examples of Other Strategies
+
+To give you a broader perspective, consider how other teams might approach the same challenge:
+
+- **Team A** might focus on fewer, high-point tasks, ensuring they can execute them flawlessly.
+- **Team B** might aim for a balanced strategy, completing a wide range of tasks to maximize their overall score.
+
+Both approaches can be successful, depending on the team's strengths and available resources.
+
 ## Refining the Strategy
 
-After the brainstorming session, we had an initial idea of what our robot should be able to do. The next steps where a
-little bit more diverged between the team members. Some of us started to build our concept robot, while the others
-experimented with the Create3 robot and others tried t come up with more detailed movement strategies of the robot.
+After the brainstorming session, we had an initial idea of what our robot should be able to do. The next steps were a
+bit more diverged between the team members. Some of us started to build our concept robot, while others experimented
+with the Create3 robot, and others tried to come up with more detailed movement strategies for the robot.
 
-To focus on the refinement part of the strategy, I will talk about the movement strategy. When you want you robot to be
-moving accurately on the game table, there's a simple rule you should follow: **The robot should always know where it
-is.** This means that the robot should always know its position on the game table and where it has to go next. This is
-especially important when you have to move the robot to a specific position on the game table, like when you have to
-pick up an astronaut or when you have to drop a pom.
+To focus on the refinement part of the strategy, I will talk about the movement strategy. When you want your robot to be
+moving accurately on the game table, there's a simple rule you should follow: **The robot should always know where it is
+**.
+This concept is described in more detail in the [Increasing Robot Accuracy](increasing-robot-accuracy.md) guide.
+Essentially, this refinement step is about implementing the different methods to ensure the robot knows its x and y
+position introduced in the guide.
 
-Achieving this is easier said than done. In our case, we are not allowed to use any external reference points, like gps
-or other methods. This means that the robot has to rely on its own sensors to know where it is. A very good approach to
-this is to make sure the robot knows where it is at the beginning of the run. This can be done by always making it start
-in it's starting
-position, which can easily be almost perfectly placed by a human in the setup time.
+ToDo: Add image of refined strategy
 
-## X-Y Approach
+By the end of the refinement phase, we had a plan where we marked where we want the robot to do line-ups,
+line-following, etc.
 
-With this set, I want to introduce the X-Y approach. This approach is a simple way to check when the robot can be sure
-where it is. The idea is to have the robot always know its x and y position when needed. This can be done by using
-various methods.
+### Adapting and Learning from Mistakes
 
-One not so reliable method is to use [Back-EMF](https://en.wikipedia.org/wiki/Counter-electromotive_force) of the
-motors. This method is not reliable because the measured ticks can be
-off by a few ticks from the real ones, which can lead to a wrong position of the robot. It is still good enough when
-only small distances
-are
-needed ([Enhancement_of_Accuracy_in_Botball_Navigation](https://www.kipr.org/wp-content/uploads/2024/08/Enhancement_of_Accuracy_in_Botball_Navigation.pdf))
+It’s important to understand that even the best-laid plans can go awry. During the competition, we had to change our
+plan multiple times because we realized that some parts weren’t working as expected. Don’t worry about having a perfect
+plan from the start. It’s more important to have a plan that you can improve on later. Being adaptable and willing to
+learn from mistakes is key to success.
 
-Another approach would be to align the robot with the walls of the game table by driving against the pvc pipes. This
-will make sure the robot has the same x or y position. When done correctly, one can also fix the robot's rotation.
+## Conclusion and Feedback
 
-ToDo: Add graphic of the X-Y approach with pvc alignment
-
-An approach similar to the one above is to use the line follow sensors to align the robot with the black lines. A line-up
-like this allows the robot to know its x or y position.
-
-
+This guide is meant to help develop a successful strategy based on my (& my teams) experiences. Remember, strategy is
+about balancing your team’s capabilities with the goals you want to achieve. Consistency, adaptability, and a solid
+understanding of the game are more valuable than aiming for an impossibly high score that you might not achieve.
 
 <include from="snippet-lib.md" element-id="footer">
     <var name="authors">Tobias Madlberger</var>

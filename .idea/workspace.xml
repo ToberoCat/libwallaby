@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Started working on making-a-successful-strategy.md">
-      <change afterPath="$PROJECT_DIR$/guides/images/back-emf-deviation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guides/topics/increasing-robot-accuracy.md" afterDir="false" />
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Added increasing-robot-accuracy.md page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guides/bbguides.tree" beforeDir="false" afterPath="$PROJECT_DIR$/guides/bbguides.tree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,7 +270,8 @@
     <MESSAGE value="Added outline of getting started guide" />
     <MESSAGE value="fixed action" />
     <MESSAGE value="Started working on making-a-successful-strategy.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started working on making-a-successful-strategy.md" />
+    <MESSAGE value="Added increasing-robot-accuracy.md page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added increasing-robot-accuracy.md page" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
