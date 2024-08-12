@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Added increasing-robot-accuracy.md page">
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Almost done with making-a-successful-strategy.md, one image missing">
+      <change afterPath="$PROJECT_DIR$/guides/images/2024-botball-strategy-refinement.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/making-a-successful-strategy.md" afterDir="false" />
     </list>
@@ -271,7 +272,8 @@
     <MESSAGE value="fixed action" />
     <MESSAGE value="Started working on making-a-successful-strategy.md" />
     <MESSAGE value="Added increasing-robot-accuracy.md page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added increasing-robot-accuracy.md page" />
+    <MESSAGE value="Almost done with making-a-successful-strategy.md, one image missing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost done with making-a-successful-strategy.md, one image missing" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [

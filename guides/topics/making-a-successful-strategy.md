@@ -103,7 +103,13 @@ This concept is described in more detail in the [Increasing Robot Accuracy](incr
 Essentially, this refinement step is about implementing the different methods to ensure the robot knows its x and y
 position introduced in the guide.
 
-ToDo: Add image of refined strategy
+![Refinement of the Strategy](2024-botball-strategy-refinement.png)
+
+In this picture, you can see how we refined our strategy. We used the whiteboard to sketch out the different methods we
+wanted to implement to ensure the robot knew its x and y position. The orange-pink lines represent the robot’s driving
+path. The blue solid lines show where we wanted the robot to do line-ups, the blue dotted represents where we use the
+distance sensor to drive our robot till it sees a certain distance, and the green dotted lines represent where we
+wanted to drive with back-EMF.
 
 By the end of the refinement phase, we had a plan where we marked where we want the robot to do line-ups,
 line-following, etc.
