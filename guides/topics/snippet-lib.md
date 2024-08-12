@@ -10,9 +10,10 @@
 
 %authors%
 
-##### Contact Us
+##### Contribute
 
-> Please report any issues, usability improvements, either by creating an issue in the
-> [GitHub repository](https://github.com/kipr/libwallaby/issues) or by writing a message on the official botball discord
->
+> Spotted a typo, grammar error or incorrect information in this article? Feel free to edit the page
+> on [GitHub repository](https://github.com/kipr/libwallaby/issues) and create a pull request.
+> Contributors are welcome to create new articles or to expand on existing ones.
+> 
 </snippet>

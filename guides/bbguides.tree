@@ -5,6 +5,7 @@
 <instance-profile id="bbguides"
                  name="Botball Guides"
                  start-page="getting-started.md">
+    <toc-element topic="increasing-robot-accuracy.md"/>
     <toc-element topic="getting-started.md">
         <toc-element topic="the-botball-kit.md"/>
         <toc-element topic="build-a-bot.md">

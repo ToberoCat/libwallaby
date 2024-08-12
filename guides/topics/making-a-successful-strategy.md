@@ -13,8 +13,8 @@
 ## What is a Successful Strategy?
 
 A good strategy isn’t just about how many points you score at the end of a competition. It’s also about how well you use
-the resources you have, how much time you have to prepare, how accurately you can score those points, and the team
-you’re working with.
+the resources you have, how much time you have to prepare, and the team
+you’re working with, both in terms of experience and size.
 
 For example, if you have a team of six experienced people and three months to prepare, you can aim for a high-scoring
 run. But if your team has only two people who are less experienced, it’s better to aim for a run that’s easier to
@@ -64,6 +64,47 @@ As you can see in the picture, we mapped out the driving paths for the robot on 
 mechanisms, like a pom sorting system and a creative astronaut pickup mechanism. We also drew some robot designs,
 although we didn’t end up using all of them. The image also includes some features of the Create3 robot and screenshots
 of our Excel scoring sheet.
+
+## Refining the Strategy
+
+After the brainstorming session, we had an initial idea of what our robot should be able to do. The next steps where a
+little bit more diverged between the team members. Some of us started to build our concept robot, while the others
+experimented with the Create3 robot and others tried t come up with more detailed movement strategies of the robot.
+
+To focus on the refinement part of the strategy, I will talk about the movement strategy. When you want you robot to be
+moving accurately on the game table, there's a simple rule you should follow: **The robot should always know where it
+is.** This means that the robot should always know its position on the game table and where it has to go next. This is
+especially important when you have to move the robot to a specific position on the game table, like when you have to
+pick up an astronaut or when you have to drop a pom.
+
+Achieving this is easier said than done. In our case, we are not allowed to use any external reference points, like gps
+or other methods. This means that the robot has to rely on its own sensors to know where it is. A very good approach to
+this is to make sure the robot knows where it is at the beginning of the run. This can be done by always making it start
+in it's starting
+position, which can easily be almost perfectly placed by a human in the setup time.
+
+## X-Y Approach
+
+With this set, I want to introduce the X-Y approach. This approach is a simple way to check when the robot can be sure
+where it is. The idea is to have the robot always know its x and y position when needed. This can be done by using
+various methods.
+
+One not so reliable method is to use [Back-EMF](https://en.wikipedia.org/wiki/Counter-electromotive_force) of the
+motors. This method is not reliable because the measured ticks can be
+off by a few ticks from the real ones, which can lead to a wrong position of the robot. It is still good enough when
+only small distances
+are
+needed ([Enhancement_of_Accuracy_in_Botball_Navigation](https://www.kipr.org/wp-content/uploads/2024/08/Enhancement_of_Accuracy_in_Botball_Navigation.pdf))
+
+Another approach would be to align the robot with the walls of the game table by driving against the pvc pipes. This
+will make sure the robot has the same x or y position. When done correctly, one can also fix the robot's rotation.
+
+ToDo: Add graphic of the X-Y approach with pvc alignment
+
+An approach similar to the one above is to use the line follow sensors to align the robot with the black lines. A line-up
+like this allows the robot to know its x or y position.
+
+
 
 <include from="snippet-lib.md" element-id="footer">
     <var name="authors">Tobias Madlberger</var>
