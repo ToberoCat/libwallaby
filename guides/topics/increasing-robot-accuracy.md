@@ -83,6 +83,14 @@ position, which is especially useful when it needs to reach a specific spot.
 Jonathan Harrison explains how to implement a line-following method in this
 video: [Line Following](https://www.youtube.com/watch?v=i_qSt3hAxzc)
 
+## Driving Perfectly Straight
+
+WIP
+
+## Rotating Accurate Angles
+
+WIP
+
 ## Botball Analysis
 
 To see the X-Y approach in action, I recommend watching [Botball Analysis](https://www.youtube.com/watch?v=OVaKQVpcXsI)

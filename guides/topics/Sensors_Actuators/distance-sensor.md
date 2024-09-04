@@ -1,4 +1,4 @@
-# Distance Sensor Documentation for Botball
+# Distance Sensor
 
 <primary-label ref="kit"/>
 <secondary-label ref="sensor"/>

@@ -10,4 +10,56 @@
         <description>Created after removal of "Sensors" from Botball Guides</description>
         <accepts>Senors.html</accepts>
     </rule>
+    <rule id="69e5096f">
+        <description>Created after removal of "The Botball Kit" from Botball Guides</description>
+        <accepts>the-botball-kit.html</accepts>
+    </rule>
+    <rule id="39ba6543">
+        <description>Created after removal of "Build a Bot" from Botball Guides</description>
+        <accepts>build-a-bot.html</accepts>
+    </rule>
+    <rule id="587503af">
+        <description>Created after removal of "Using the Wombat" from Botball Guides</description>
+        <accepts>using-the-wombat.html</accepts>
+    </rule>
+    <rule id="255c50f2">
+        <description>Created after removal of "Program the Robot" from Botball Guides</description>
+        <accepts>program-the-robot.html</accepts>
+    </rule>
+    <rule id="545e92c2">
+        <description><![CDATA[Created after removal of "Sensors & Actuators" from Botball Guides]]></description>
+        <accepts>sensors-and-actuators.html</accepts>
+    </rule>
+    <rule id="5452f4d">
+        <description><![CDATA[Created after removal of "Sensors & Actuators" from Botball Guides]]></description>
+        <accepts>sensors-and-actuators.html</accepts>
+    </rule>
+    <rule id="17689b6c">
+        <description>Created after removal of "Program the Robot" from Botball Guides</description>
+        <accepts>program-the-robot.html</accepts>
+    </rule>
+    <rule id="714a3f94">
+        <description>Created after removal of "Using the Wombat" from Botball Guides</description>
+        <accepts>using-the-wombat.html</accepts>
+    </rule>
+    <rule id="6e06fa31">
+        <description>Created after removal of "Build a Bot" from Botball Guides</description>
+        <accepts>build-a-bot.html</accepts>
+    </rule>
+    <rule id="664852b3">
+        <description>Created after removal of "The Botball Kit" from Botball Guides</description>
+        <accepts>the-botball-kit.html</accepts>
+    </rule>
+    <rule id="681cd534">
+        <description>Created after removal of "Getting Started" from Botball Guides</description>
+        <accepts>getting-started.html</accepts>
+    </rule>
+    <rule id="939d1bd">
+        <description>Created after removal of "How a Regional Works" from Botball Guides</description>
+        <accepts>how-a-regional-works.html</accepts>
+    </rule>
+    <rule id="67588fad">
+        <description><![CDATA[Created after removal of "Regional & Teamwork" from Botball Guides]]></description>
+        <accepts>preparing-for-a-regional.html</accepts>
+    </rule>
 </rules>
