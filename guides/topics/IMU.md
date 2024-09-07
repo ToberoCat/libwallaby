@@ -152,26 +152,25 @@ Here’s how you can handle potential errors:
 
 ```Javascript
 function turn_90_degrees_with_error_handling():
-    try:
-        gyro_calibrate()
-        target_angle = 90
-        current_angle = 0
-        last_time = get_current_time()
-        while current_angle < target_angle:
-            gyro_z = read_gyroscope()
-            current_time = get_current_time()
-            delta_time = current_time - last_time
-            current_angle += gyro_z * delta_time
-            last_time = current_time
-            
-            if current_angle >= target_angle:
-                stop_robot()
-            else:
-                turn_robot()
-    except GyroscopeError:
-        print("Error: Gyroscope malfunction detected!")
-        stop_robot()
-        # Additional error recovery code could be added here
+    gyro_calibrate()
+    target_angle = 90
+    current_angle = 0
+    start_time = get_current_time()
+    last_time = get_current_time()
+    while current_angle < target_angle:
+        gyro_z = read_gyroscope()
+        current_time = get_current_time()
+        delta_time = current_time - last_time
+        current_angle += gyro_z * delta_time
+        last_time = current_time
+        
+        if start_time - current_time > 5:  // Check if the goal is not reached within 5 seconds
+            raise GyroscopeError("Gyroscope malfunction detected!")
+        
+        if current_angle >= target_angle:
+            stop_robot()
+        else:
+            turn_robot()
 ```
 
 In this example, you can implement a custom error class (`GyroscopeError`) to handle specific gyroscope-related issues,
