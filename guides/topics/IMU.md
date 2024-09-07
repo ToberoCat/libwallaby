@@ -281,7 +281,7 @@ While the IMU is a powerful tool, it should not be relied upon exclusively. I st
 methods, such as driving against PVC pipes or aligning with black lines, to achieve the best accuracy.
 
 For more insights on the pros and cons of different approaches and additional techniques to enhance your robot’s
-accuracy, refer to the increasing robot accuracy guide.
+accuracy, refer to the [increasing robot accuracy guide](increasing-robot-accuracy.md)
 
 <include from="snippet-lib.md" element-id="footer">
     <var name="authors">Tobias Madlberger</var>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Added IMU Guide">
+    <list default="true" id="c45c0d79-1cb9-4c1c-b5fc-9ffeae8e361e" name="Changes" comment="Replaced wheel encoders with back-emf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guides/topics/IMU.md" beforeDir="false" afterPath="$PROJECT_DIR$/guides/topics/IMU.md" afterDir="false" />
     </list>
@@ -207,26 +207,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Writerside.PDF (s).executor&quot;: &quot;Run&quot;,
-    &quot;Writerside.Web Archive (s).executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tobias/Downloads/libwallaby/guides/images&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;writerside.last.selected.productlibwallaby&quot;: &quot;s&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
-      &quot;/home/tobias/Downloads/libwallaby/guides/topics/IMU.md&quot;,
-      &quot;/home/tobias/Downloads/libwallaby/guides/topics/Sensors_Actuators/distance-sensor.md&quot;,
-      &quot;/home/tobias/Downloads/libwallaby/guides/topics/increasing-robot-accuracy.md&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Writerside.PDF (s).executor": "Run",
+    "Writerside.Web Archive (s).executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/tobias/Downloads/libwallaby/guides/images",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "writerside.last.selected.productlibwallaby": "s"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/guides/images" />
@@ -284,7 +277,10 @@
     <MESSAGE value="Finished making-a-successful-strategy.md" />
     <MESSAGE value="Fixed Skeleton" />
     <MESSAGE value="Added IMU Guide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added IMU Guide" />
+    <MESSAGE value="Fixed tests" />
+    <MESSAGE value="Fixed gyroscope error handling" />
+    <MESSAGE value="Replaced wheel encoders with back-emf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced wheel encoders with back-emf" />
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [

@@ -83,13 +83,43 @@ position, which is especially useful when it needs to reach a specific spot.
 Jonathan Harrison explains how to implement a line-following method in this
 video: [Line Following](https://www.youtube.com/watch?v=i_qSt3hAxzc)
 
-## Driving Perfectly Straight
+## Driving Straight
 
-WIP
+<tldr> <p><b>Summary</b>: To ensure the robot drives in a straight line without veering off course.</p> <p><b>Pros</b>: Essential for long-distance precision.</p> <p><b>Cons</b>: Challenging to achieve due to external factors like motor inconsistency or surface variations.</p> </tldr>
 
-## Rotating Accurate Angles
+Driving perfectly straight is critical for ensuring the robot can travel long distances accurately without deviation.
+Small inaccuracies can lead to significant errors when covering a large area, especially if the robot is relying solely
+on dead reckoning (estimating its position by measuring motor ticks as example).
+Here are a few strategies to help the robot maintain a straight path:
 
-WIP
+- Back-EMF: The most common method for straight driving is to use Back-EMF.
+  The ticks allow the robot to adjust its speed by comparing the ticks of the left and right motors.
+  If one motor is slightly ahead, the robot can slow it down until the other catches up.
+
+- Gyroscope: A gyroscope sensor can detect angular deviations and correct them.
+  If the robot starts to veer off-course, the gyroscope will sense this,
+  and the control algorithm can adjust the motor speeds to bring the robot back in line.
+  Read [IMU Sensor](IMU.md) for more information about gyroscope sensors.
+
+- Calibrating Motors: If the motors themselves have different strengths or frictions, it can cause the robot to veer.
+  Regular calibration can help ensure both motors are equally powered, minimizing the chance of drifting.
+
+## Rotating Angles
+
+<tldr> <p><b>Summary</b>: To ensure the robot can turn precisely to a specific angle.</p> <p><b>Pros</b>: Allows rotating a specific angle when no external reference points are present</p> <p><b>Cons</b>: Can be affected by external forces and require careful sensor calibration.</p> </tldr>
+
+Precise rotation is key to reorienting the robot when it needs to turn and drive toward a new direction.
+Here are common techniques for achieving accurate rotation:
+
+- Back-EMF: Similar to straight driving, Back-EMF can also be used for turning by counting the number of motor ticks.
+  To rotate the robot, the motors on each side move in opposite directions,
+  and by monitoring the encoder ticks, the robot can calculate when it has reached the desired angle.
+  However, this method is less reliable over time, as slippage and friction can introduce errors.
+
+- Gyroscope: The most reliable way to achieve precise turns is by using a gyroscope sensor.
+  The gyroscope tracks the robot’s rotation in real-time,
+  and the control algorithm can stop the motors as soon as the robot has turned the correct number of degrees.
+  Read [IMU Sensor](IMU.md) for more information about gyroscope sensors.
 
 ## Botball Analysis
 
