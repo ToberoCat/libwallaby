@@ -191,7 +191,7 @@ when it should turn 90, you would need to multiply the target angle by 3 to achi
 ## Improving Accuracy with PID Control
 
 To achieve more accurate turns, you can use
-a [PID controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) to adjust
+a PID Controller to adjust
 the motor speeds based on the error between the
 target angle and the current angle. 
 To easier understand the PID in a robotics related context, one can look at the following video:
