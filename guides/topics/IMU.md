@@ -192,7 +192,7 @@ when it should turn 90, you would need to multiply the target angle by 3 to achi
 To achieve more accurate turns, you can use
 a PID Controller to adjust
 the motor speeds based on the error between the
-target angle and the current angle. 
+target angle and the current angle.
 To easier understand the PID in a robotics related context, one can look at the following video:
 [PID - Controlling Self Driving Cars](https://www.youtube.com/watch?v=4Y7zG48uHRo)
 
@@ -247,7 +247,7 @@ function adjust_speed(error):
 
 ![Bang Bang Control Driving Straight](bang-bang-control-driving-straight.gif)
 
-*In the GIF, one can see how this implementation would be driving straight. 
+*In the GIF, one can see how this implementation would be driving straight.
 One can also see the issues the basic error correction (Bang-Bang Control) has*
 
 Again, this method is a basic implementation and might not work perfectly over long distances due to gyro drift.
@@ -266,6 +266,26 @@ While the methods discussed are a good starting point, they can be enhanced in s
   orientation drift.
 - **Dead Reckoning with Error Estimation**: Combine gyroscope data with other sensors like Back-EMF to cross-check
   and reduce drift.
+
+## Troubleshooting
+
+One issue I encountered when programming the gyroscope on the wombat
+was the issue that the data only updated each second.
+This problem can be fixed by using v30 or later for the wombat image.
+
+When updating, make sure to flash the Stem32 board with the firmware provided by KIPR.
+This can be done by running the following command in the terminal:
+
+```bash
+cd ~/flashfiles && sudo bash ./wallaby_flash
+```
+
+> Please note that the exact command might be not different for you, as kipr regularly updates their image, which might
+> cause the location of this script to move. Best would be to contact Tim about flashing the Stem32 board, if you cant
+> find the script.
+
+After flashing and a restart, the gyroscope and the other IMUe sensors will now update their values much more
+frequently, making them usable.
 
 ## Conclusion
 
