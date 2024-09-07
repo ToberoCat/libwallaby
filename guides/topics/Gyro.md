@@ -1,3 +1,0 @@
-# Gyro
-
-Start typing here...

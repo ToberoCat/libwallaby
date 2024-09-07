@@ -10,7 +10,7 @@
     <toc-element topic="teamwork-project-managment.md"/>
     <toc-element topic="preparing-your-robot.md"/>
     <toc-element topic="Sensors-Actors.md">
-        <toc-element topic="Gyro.md"/>
+        <toc-element topic="IMU.md"/>
         <toc-element topic="distance-sensor.md"/>
     </toc-element>
     <toc-element topic="Program-in-Python.md"/>
