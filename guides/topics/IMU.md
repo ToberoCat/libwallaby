@@ -264,13 +264,13 @@ While the methods discussed are a good starting point, they can be enhanced in s
   that could affect sensor accuracy.
 - **Landmark-based Error Correction**: Use known environmental features, like lines on the floor or walls, to correct
   orientation drift.
-- **Dead Reckoning with Error Estimation**: Combine gyroscope data with other sensors like wheel encoders to cross-check
+- **Dead Reckoning with Error Estimation**: Combine gyroscope data with other sensors like Back-EMF to cross-check
   and reduce drift.
 
 ## Conclusion
 
-Using an IMU in your robotics projects can significantly improve your robot’s ability to rotate and drive straight.
-However, it's essential to understand the limitations of the gyroscope, particularly drift, and explore ways to mitigate
+Using the IMU can significantly improve your robot’s ability to rotate and drive straight.
+However, you must understand the limitations of the gyroscope, particularly drift, and explore ways to mitigate
 it.
 
 If you encounter issues with inaccurate turns, consider experimenting with correction factors as described in this
