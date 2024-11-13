@@ -15,6 +15,7 @@
     </toc-element>
     <toc-element topic="Program-in-Python.md"/>
     <toc-element topic="Programming.md">
+        <toc-element topic="Version-Control.md"/>
         <toc-element topic="Multiple-Files.md"/>
         <toc-element topic="Functions.md"/>
         <toc-element topic="Setting-up-a-external-IDE.md"/>
