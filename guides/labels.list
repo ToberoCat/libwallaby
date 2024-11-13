@@ -10,9 +10,18 @@
         based on the author's personal experience and what worked best for them. Does not guarantee the same results for
         you.
     </primary-label>
+    <primary-label id="code" name="coding" short-name="Coding">
+        This guide helps with different programming related concepts
+    </primary-label>
+    <secondary-label id="hard" name="Advanced Guide" color="tangerine"/>
 
     <secondary-label id="sensor" name="Sensor" color="red">
         This is a guide made to explain a sensor
+    </secondary-label>
+
+    <!-- KIPR OS Version Labels -->
+    <secondary-label id="v30.1" name="v30.1" color="blue">
+        This guide has been made and tested on this specific version of the kipr operating system
     </secondary-label>
 
     <!-- Author Labels -->
