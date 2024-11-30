@@ -1,4 +1,4 @@
-# Setting up a external IDE
+# Setting up an External IDE
 
 <primary-label ref="code"/>
 <secondary-label ref="hard"/>
@@ -8,8 +8,11 @@
 This guide will help you understand why switching to a modern programming environment (or IDE) can make things
 easier—and show you a simple way to get started.
 
-> **IDE**: An IDE, or Integrated Development Environment, is a program where you can write, test, and organize code.
+> **IDE**: An IDE, or Integrated Development Environment, is a program where you can write, test, and organize code.  
 > Think of it as a workspace where all the tools you need are in one place!
+
+> **Note**: This is a really hard and complex topic - It might not be suited for everyone, as it will require you to be
+> a little bit tech-savvy, else you'll get lost pretty quick (Especially during the cross compilation part)
 
 ## Why Use a Modern IDE for Robotics?
 
@@ -30,7 +33,8 @@ Let’s break down a clear, straightforward way to set up your modern IDE and ge
 
 ### Step 1: Pick and Install Your IDE
 
-1. **Choose VS Code**: Visual Studio Code (VS Code) is free and very popular. It’s available on Windows, Mac, and Linux.
+1. **Choose VS Code**: Visual Studio Code (VS Code) is free and very popular. It’s available on Windows, Mac, and
+   Linux.  
    You can download it [here](https://code.visualstudio.com/).
 2. **Install the C/C++ Extension**: To work with the language Botball robots use, you’ll need this extension. In VS
    Code:
@@ -54,22 +58,48 @@ to connect to it over a network.
       connects you to the Wombat’s command line, where you can send files and run commands.
       The default password for the kipr user is `botball`
 
-### Step 3: Cross-Compile Your Code on Your Computer (ToDo)
+### Step 3: Cross-Compile Your Code on Your Computer
 
-> **Cross-compiling**: This means creating code on your computer that can run on another device, like the Wombat’s
-> Raspberry Pi. It’s faster than compiling directly on the Wombat.
+Cross-compiling allows you to compile your code on your powerful computer, generating executables that run on the
+Wombat’s ARM-based processor. This process is faster and more efficient than compiling directly on the Wombat.
+
+#### What is Cross-Compiling?
+
+> **Cross-compiling**: Creating code on your computer that can run on another device, like the Wombat’s Raspberry Pi.
+> It’s faster than compiling directly on the Wombat.
+
+#### Why Use Cross-Compilation?
+
+- **Speed**: Compiling on your computer is significantly faster.
+- **Efficiency**: Leverage your computer’s resources for better performance.
+- **Convenience**: Integrate seamlessly with modern IDEs and development workflows.
+
+#### Overview of what's happening
 
 ![CrossCompilationFlowchart](cross-compiler-flowchart.png)
 
-1. **Set Up the ARM Compiler**: The Wombat uses a Raspberry Pi processor, so you need a compiler that matches it:
-    - Install an ARM compiler on your computer. This allows you to create code that works on the Pi.
-2. **Write and Compile Your Code**:
-    - Write your code in VS Code and use the ARM compiler to compile it on your computer. This makes it ready to run on
-      the Wombat without needing to compile directly on it.
+*Figure: Overview of the cross-compilation process using Docker.*
 
-// ToDo
-Please know, that this section isn't perfect yet. Setting up a cross-compiler is hard - That's why, I'll soon provide a
-template with everything difficult already setup
+The required files will eb transferred from your wombat onto your computer. This has already been done by Clemens Koza
+in
+the [wombat-cross](https://github.com/PRIArobotics/wombat-cross) GitHub repo. This repo makes it easier to set up this
+complex process.
+
+Once the files are on your device, they get combined with your program to create the executable the wombat can
+understand. This is then put back on the wombat and gets executed.
+
+#### Running Cross-Compilation
+
+As already mentioned, using [wombat-cross](https://github.com/PRIArobotics/wombat-cross) is the approach used in this
+guide to set up cross compilation. It already preconfigures many things, making it easier to get started with cross
+compiling for the wombat.
+
+Follow the instructions on [](https://github.com/PRIArobotics/wombat-cross) to setup your own cross compilation
+
+#### Additional Resources
+
+- **wombat-cross GitHub Repository**: [](https://github.com/PRIArobotics/wombat-cross)
+- **Docker Documentation**: [](https://docs.docker.com/get-started/)
 
 ### Step 4: Copying Your Compiled Code to the Wombat
 
@@ -137,7 +167,10 @@ the network.
 
    You should see your `robot_program` file listed in the directory.
 
-### Running the Program on the Wombat
+### Step 5: Run and Test Your Code
+
+Now that your program is on the Wombat, you can test it directly on the robot. Go to the Wombat’s project folder and run
+it. This is the fun part—watching your robot follow your commands!
 
 1. **Start the Program via the Wombat’s UI**
 
@@ -156,11 +189,6 @@ the network.
 By following these steps, you’ll successfully transfer, locate, and run your compiled code on the Wombat, making it
 easier to test and adjust your robot’s performance. This setup helps create a smooth workflow for programming and
 iterating on your robot!
-
-### Step 5: Run and Test Your Code
-
-Now that your program is on the Wombat, you can test it directly on the robot. Go to the Wombat’s project folder and run
-it. This is the fun part—watching your robot follow your commands!
 
 ---
 
