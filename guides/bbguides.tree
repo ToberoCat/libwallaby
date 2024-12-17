@@ -13,6 +13,7 @@
         <toc-element topic="IMU.md"/>
         <toc-element topic="distance-sensor.md"/>
     </toc-element>
+    <toc-element topic="Servo.md"/>
     <toc-element topic="Program-in-Python.md"/>
     <toc-element topic="Programming.md">
         <toc-element topic="Version-Control.md"/>

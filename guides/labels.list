@@ -19,6 +19,10 @@
         This is a guide made to explain a sensor
     </secondary-label>
 
+    <secondary-label id="actuator" name="Actuator" color="red">
+        This is a guide made to explain a sensor
+    </secondary-label>
+
     <!-- KIPR OS Version Labels -->
     <secondary-label id="v30.1" name="v30.1" color="blue">
         This guide has been made and tested on this specific version of the kipr operating system
